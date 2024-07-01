@@ -2,9 +2,15 @@
 //
 
 #include <iostream>
+#include "Pizza.h"
 
 int main()
 {
+	//Lets create some pizza!
+	Pizza pepperoniPizza("Pepperoni", 15, "16");
+	Pizza cheesePizza("Cheese", 10, "12");
 
+	pepperoniPizza.order();
+	cheesePizza.order();
 }
 
